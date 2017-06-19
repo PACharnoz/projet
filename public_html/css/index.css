@@ -64,6 +64,8 @@ and open the template in the editor.
 
 li {
     text-align: center;
+    position : relative;
+    background:#EFEFEF; /* juste pour cacher le texte de la page en-dessous */
 }
 
 li a {
@@ -81,4 +83,14 @@ li a.active {
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
+}
+
+#BarrePrincipale ul {
+  position: absolute;
+  left:-999em;
+}
+
+#BarrePrincipale li:hover ul {
+  top: 0;
+  left: 300px;
 }
