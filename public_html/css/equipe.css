@@ -8,3 +8,10 @@ and open the template in the editor.
     Author     : damien.fontes
 */
 
+#article2 {
+    float : left;
+}
+
+#aside {
+    float : right;
+}
