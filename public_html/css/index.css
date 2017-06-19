@@ -13,6 +13,11 @@ and open the template in the editor.
     height:100px;
 }
 
+nav {
+    float : left;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
