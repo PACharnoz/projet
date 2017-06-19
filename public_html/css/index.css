@@ -18,7 +18,7 @@ and open the template in the editor.
 }
 
 
-#NavPrincipale ul {
+#NavPrincipale #BarrePrincipale {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -74,7 +74,7 @@ li a {
     padding: 40px 56px;
     text-decoration: none;
 }
- 
+
 li a.active {
     background-color: #4CAF50;
     color: white;
@@ -86,11 +86,27 @@ li a:hover:not(.active) {
 }
 
 #BarrePrincipale ul {
-  position: absolute;
-  left:-999em;
+    position: absolute;
+    left:-999em;
 }
 
 #BarrePrincipale li:hover ul {
-  top: 0;
-  left: 300px;
+    top: 0;
+    left: 300px;
+}
+
+#test {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+
+}
+
+#test li a {
+    padding: 18px 20px;
+    font-size : 21px;
+    
 }
