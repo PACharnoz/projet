@@ -8,10 +8,11 @@ and open the template in the editor.
     Author     : damien.fontes
 */
 
-#article2 {
-    float : left;
+#article1 {
+    text-indent: 50px;
 }
 
+/*
 #aside {
     float : right;
-}
+}*/

@@ -5,6 +5,13 @@ and open the template in the editor.
 */
 /* 
     Created on : 19 juin 2017, 11:25:48
-    Author     : damien.fontes
+    Author     : Damien Fontes
 */
 
+#SectionPrincipale {
+    margin-left: 350px;
+}
+
+#SectionPrincipale h1 {
+    text-decoration: underline;
+}
