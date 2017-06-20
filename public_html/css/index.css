@@ -95,7 +95,7 @@ li a:hover:not(.active) {
 
 #BarrePrincipale li:hover ul {
     top: 0;
-    left: 250px;
+    left: 100%;
 }
 
 #test {
