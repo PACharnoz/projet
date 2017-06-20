@@ -9,8 +9,8 @@ and open the template in the editor.
 */
 
 #SectionPrincipale {
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: 20%;
+    margin-left: 20%;
     font-size : 18px;
 }
 
@@ -19,7 +19,7 @@ and open the template in the editor.
 }
 
 img{
-    margin-left : 280px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-left : 22%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
