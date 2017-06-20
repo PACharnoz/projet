@@ -139,3 +139,12 @@ footer {
     color: #bbb;
     text-align:center;/*texte centré*/
 }
+
+
+#loop
+{
+    position: absolute;
+    left : 290px;
+    top :550px;
+    right: -200px;
+}
