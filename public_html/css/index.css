@@ -27,7 +27,7 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 280px;
     background-color: #f1f1f1;
     border: 1px solid #555;
  
@@ -50,7 +50,7 @@ header {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 230px;
     background-color: #f1f1f1;
     border: 1px solid #555;
 }
@@ -66,12 +66,12 @@ header {
     list-style-type: none;
     margin-top: 1%;
     padding: 0px;
-    width: 100%;
+    width: 230px;
     background-color: #f1f1f1;
     border: 1px solid #555;
 }
 
-li {
+#NavPrincipale #NavSecondaire #NavTertiaire li {
     text-align: center;
     position : relative;
     background:#EFEFEF; /* juste pour cacher le texte de la page en-dessous */

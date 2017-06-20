@@ -9,9 +9,13 @@ and open the template in the editor.
 */
 
 #SectionPrincipale {
-    margin-left: 350px;
-    margin-right: 300px;
+    margin-left: 330px;
+    margin-right: 280px;
     font-size : 15px;
+}
+
+#Accompagnement {
+    text-align: left;
 }
 
 #SectionPrincipale h1 {
