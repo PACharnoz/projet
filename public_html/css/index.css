@@ -7,21 +7,12 @@ and open the template in the editor.
     Created on : 19 juin 2017, 09:25:03
     Author     : paul-adrien.charnoz
 */
-html {
-    width: 1500px;
+header {
+    width: auto;
+    height: 200px;
+    float : top;
     background: url('../image/BackGroundPorjet.jpg') no-repeat scroll center 0;
 }
-
-footer {
-    position: fixed;
-    bottom: 0px;
-    height: 50px;
-    width: 100%;
-    background-color:#2d2d2d; /*Couleur de fond*/
-    color: #bbb;
-    text-align:center;/*texte centré*/
-}
-
 
 #NavPrincipale {
     float : left;
@@ -119,4 +110,14 @@ li a:hover:not(.active) {
     padding: 18px 20px;
     font-size : 21px;
     
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color:#2d2d2d; /*Couleur de fond*/
+    color: #bbb;
+    text-align:center;/*texte centré*/
 }
