@@ -7,11 +7,21 @@ and open the template in the editor.
     Created on : 19 juin 2017, 09:25:03
     Author     : paul-adrien.charnoz
 */
-#logoOfficiel
-{
-    width:100px;
-    height:100px;
+html {
+    width: 1500px;
+    background: url('../image/BackGroundPorjet.jpg') no-repeat scroll center 0;
 }
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color:#2d2d2d; /*Couleur de fond*/
+    color: #bbb;
+    text-align:center;/*texte centré*/
+}
+
 
 #NavPrincipale {
     float : left;
