@@ -22,7 +22,7 @@ and open the template in the editor.
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 250px;
     background-color: #f1f1f1;
     border: 1px solid #555;
     position: fixed; /* Make it stick, even on scroll */
@@ -35,14 +35,14 @@ and open the template in the editor.
 
 #NavSecondaire {
     float : right;
-    font-size : 22px;
+    font-size : 20px;
 }
 
 #NavSecondaire ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    width: 300px;
+    width: 230px;
     background-color: #f1f1f1;
     border: 1px solid #555;
 }
@@ -50,14 +50,14 @@ and open the template in the editor.
 #NavTertiaire {
     clear : right;
     float : right;
-    font-size : 22px;
+    font-size : 20px;
 }
 
 #NavTertiaire ul {
     list-style-type: none;
     margin-top: 25px;
     padding: 0px;
-    width: 300px;
+    width: 230px;
     background-color: #f1f1f1;
     border: 1px solid #555;
 }
@@ -71,7 +71,7 @@ li {
 li a {
     display: block;
     color: #000;
-    padding: 40px 56px;
+    padding: 25px 50px;
     text-decoration: none;
 }
 
@@ -92,14 +92,14 @@ li a:hover:not(.active) {
 
 #BarrePrincipale li:hover ul {
     top: 0;
-    left: 300px;
+    left: 250px;
 }
 
 #test {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 250px;
     background-color: #f1f1f1;
     border: 1px solid #555;
 
