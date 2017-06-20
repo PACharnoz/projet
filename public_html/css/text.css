@@ -9,11 +9,17 @@ and open the template in the editor.
 */
 
 #SectionPrincipale {
-    margin-right: 350px;
-    margin-left: 350px;
-    font-size : 22px;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size : 18px;
 }
 
 #SectionPrincipale h1 {
     text-decoration: underline;
+}
+
+img{
+    margin-left : 22%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }

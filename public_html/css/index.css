@@ -6,11 +6,14 @@ and open the template in the editor.
 /* 
     Created on : 19 juin 2017, 09:25:03
     Author     : paul-adrien.charnoz
-*/
-#logoOfficiel
-{
-    width:100px;
-    height:100px;
+*/  
+header {
+    background: url('../image/BackGroundPorjet.jpg') no-repeat scroll center 0;
+    width: auto;
+    height: 200px;
+    float : top;
+
+    margin: 0 auto 0 auto;
 }
 
 #NavPrincipale {
@@ -22,7 +25,7 @@ and open the template in the editor.
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 16%;
     background-color: #f1f1f1;
     border: 1px solid #555;
     position: fixed; /* Make it stick, even on scroll */
@@ -35,14 +38,14 @@ and open the template in the editor.
 
 #NavSecondaire {
     float : right;
-    font-size : 22px;
+    font-size : 20px;
 }
 
 #NavSecondaire ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    width: 300px;
+    width: 100%;
     background-color: #f1f1f1;
     border: 1px solid #555;
 }
@@ -50,14 +53,14 @@ and open the template in the editor.
 #NavTertiaire {
     clear : right;
     float : right;
-    font-size : 22px;
+    font-size : 20px;
 }
 
 #NavTertiaire ul {
     list-style-type: none;
     margin-top: 25px;
     padding: 0px;
-    width: 300px;
+    width: 100%;
     background-color: #f1f1f1;
     border: 1px solid #555;
 }
@@ -71,7 +74,7 @@ li {
 li a {
     display: block;
     color: #000;
-    padding: 40px 56px;
+    padding: 25px 50px;
     text-decoration: none;
 }
 
@@ -92,14 +95,14 @@ li a:hover:not(.active) {
 
 #BarrePrincipale li:hover ul {
     top: 0;
-    left: 300px;
+    left: 250px;
 }
 
 #test {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 250px;
     background-color: #f1f1f1;
     border: 1px solid #555;
 
@@ -108,5 +111,15 @@ li a:hover:not(.active) {
 #test li a {
     padding: 18px 20px;
     font-size : 21px;
-    
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color:#2d2d2d; /*Couleur de fond*/
+    color: #bbb;
+    text-align:center;/*texte centré*/
 }
