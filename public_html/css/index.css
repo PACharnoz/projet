@@ -38,6 +38,16 @@ header {
     border-bottom: 1px solid #555;
 }
 
+#NavSecondaire li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+#NavTertiaire li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
 #NavSecondaire {
     clear : right;
     float : right;
@@ -71,7 +81,7 @@ header {
     border: 1px solid #555;
 }
 
-#NavPrincipale #NavSecondaire #NavTertiaire li {
+#NavPrincipale li {
     text-align: center;
     position : relative;
     background:#EFEFEF; /* juste pour cacher le texte de la page en-dessous */
