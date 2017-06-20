@@ -6,12 +6,14 @@ and open the template in the editor.
 /* 
     Created on : 19 juin 2017, 09:25:03
     Author     : paul-adrien.charnoz
-*/
+*/  
 header {
+    background: url('../image/BackGroundPorjet.jpg') no-repeat scroll center 0;
     width: auto;
     height: 200px;
     float : top;
-    background: url('../image/BackGroundPorjet.jpg') no-repeat scroll center 0;
+
+    margin: 0 auto 0 auto;
 }
 
 #NavPrincipale {
@@ -23,7 +25,7 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 250px;
+    width: 16%;
     background-color: #f1f1f1;
     border: 1px solid #555;
     position: fixed; /* Make it stick, even on scroll */
@@ -43,7 +45,7 @@ header {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    width: 230px;
+    width: 100%;
     background-color: #f1f1f1;
     border: 1px solid #555;
 }
@@ -58,7 +60,7 @@ header {
     list-style-type: none;
     margin-top: 25px;
     padding: 0px;
-    width: 230px;
+    width: 100%;
     background-color: #f1f1f1;
     border: 1px solid #555;
 }
@@ -109,7 +111,7 @@ li a:hover:not(.active) {
 #test li a {
     padding: 18px 20px;
     font-size : 21px;
-    
+
 }
 
 footer {
