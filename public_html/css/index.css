@@ -16,12 +16,10 @@ header {
     margin: 0 auto 0 auto;
 }
 
-nav {
-    margin-top: 200px;
-}
 
 #NavPrincipale {
     float : left;
+    margin-top: 200px;
 }
 
 
@@ -32,7 +30,7 @@ nav {
     width: 16%;
     background-color: #f1f1f1;
     border: 1px solid #555;
-    position: fixed; /* Make it stick, even on scroll */
+    position: fixed;  
 }
 
 #NavPrincipale li {
@@ -41,11 +39,14 @@ nav {
 }
 
 #NavSecondaire {
+    clear : right;
     float : right;
+    margin-top: 200px;
     font-size : 20px;
 }
 
 #NavSecondaire ul {
+    
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -58,11 +59,12 @@ nav {
     clear : right;
     float : right;
     font-size : 20px;
+    margin-top: 20px;
 }
 
 #NavTertiaire ul {
     list-style-type: none;
-    margin-top: 25px;
+    margin-top: 1%;
     padding: 0px;
     width: 100%;
     background-color: #f1f1f1;
