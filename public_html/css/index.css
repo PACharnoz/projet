@@ -58,7 +58,7 @@ header {
     clear : right;
     float : right;
     margin-top: 230px;
-    font-size : 20px;
+    font-size : 23px;
 }
 
 #NavSecondaire ul {
@@ -132,8 +132,6 @@ li a:hover:not(.active) {
 
 #test li a {
     padding: 18px 20px;
-    font-size : 21px;
-
 }
 
 footer {
@@ -146,3 +144,8 @@ footer {
     text-align:center;/*texte centré*/
 }
 
+#myCarousel {
+    height: 350px; 
+    width: 600px;
+    margin : auto;
+}
