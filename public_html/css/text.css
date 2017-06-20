@@ -9,9 +9,9 @@ and open the template in the editor.
 */
 
 #SectionPrincipale {
-    margin-right: 20%;
-    margin-left: 20%;
-    font-size : 18px;
+    margin-left: 350px;
+    margin-right: 300px;
+    font-size : 15px;
 }
 
 #SectionPrincipale h1 {
