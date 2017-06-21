@@ -47,7 +47,7 @@ ul.sidenav {
 }
 
 
-li a 
+header li a 
 {
     display: block;
     color: #000;
@@ -118,12 +118,12 @@ li a
 }
 
 
-li a.active {
+header li a.active {
     background-color: #E3001B;
     color: white;
 }
 
-li a:hover:not(.active) {
+header li a:hover:not(.active) {
     background-color: #E3001B;
     color: white;
 }
