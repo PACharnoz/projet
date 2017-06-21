@@ -85,17 +85,38 @@ li a
     clear : right;
     float : right;
     font-size : 20px;
-    margin-top: 20px;
+    margin-top: 1%;
 }
+
 
 #NavTertiaire ul {
     list-style-type: none;
-    margin-top: 1%;
     padding: 0px;
     width: 230px;
     background-color: #f1f1f1;
     border: 1px solid #555;
 }
+
+
+#NavQuaternaire {
+    clear : right;
+    float : right;
+    font-size : 20px;
+}
+
+#NavQuaternaire li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+#NavQuaternaire ul {
+    list-style-type: none;
+    padding: 0px;
+    width: 230px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
 
 li a.active {
     background-color: #E3001B;
@@ -133,15 +154,6 @@ ul.sidenav li:hover ul {
     padding: 18px 20px;
 }
 
-
-
-
-/*            div.content {
-                margin-left: 25%;
-                padding: 1px 16px;
-                height: 1000px;
-            }*/
-
 @media screen and (max-width: 900px) {
     ul.sidenav {
         width: 100%;
@@ -175,5 +187,5 @@ footer {
     width: 100%;
     background-color:#2d2d2d; /*Couleur de fond*/
     color: #bbb;
-    text-align:center;/*texte centré*/
+    text-align: center;
 }
