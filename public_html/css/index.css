@@ -134,8 +134,16 @@ li a:hover:not(.active) {
     padding: 18px 20px;
 }
 
+
+
+#myCarousel {
+    height: 300px; 
+    width: 600px;
+    margin : auto;
+}
+
 footer {
-    position: fixed;
+    margin-top : 50px;
     bottom: 0px;
     height: 50px;
     width: 100%;
@@ -144,8 +152,9 @@ footer {
     text-align:center;/*texte centré*/
 }
 
+
 #myCarousel {
-    height: 350px; 
+    height: 300px; 
     width: 600px;
     margin : auto;
 }
