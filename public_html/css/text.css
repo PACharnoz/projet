@@ -23,3 +23,6 @@ li {
     text-decoration: underline;
 }
 
+#SectionNousContacter p {
+    text-align: center;
+}
