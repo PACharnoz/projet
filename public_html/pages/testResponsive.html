@@ -8,7 +8,7 @@
 
             #NavPrincipale {
                 float : left;
-                margin-top : 100px;
+                margin-top : 230px;
             }
 
             ul.sidenav {
@@ -19,14 +19,14 @@
                 background-color: #f1f1f1;
                 position: fixed;
                 height: 75%;
-                overflow: auto;
+
             }
 
             #NavPrincipale ul.sidenav{
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
-
+                width: 280px;
                 background-color: #f1f1f1;
                 border: 1px solid #555;
             }
@@ -35,7 +35,7 @@
             #NavPrincipale li {
                 text-align: center;
                 position : relative;
-                background:#EFEFEF;  juste pour cacher le texte de la page en-dessous
+                background:#EFEFEF;  //juste pour cacher le texte de la page en-dessous
             }
 
 
@@ -63,10 +63,10 @@
                 left:-999em;
             }
 
-            ul.sidenav li:hover ul { // probleme avec les resp
-                                     top: 0;
-                                     left: 100%;
-                                     z-index: 12;
+            ul.sidenav li:hover ul {
+                top: 0;
+                left: 100%;
+
             } 
 
 
@@ -87,11 +87,11 @@
 
 
 
-            div.content {
+/*            div.content {
                 margin-left: 25%;
                 padding: 1px 16px;
                 height: 1000px;
-            }
+            }*/
 
             @media screen and (max-width: 900px) {
                 ul.sidenav {
@@ -103,7 +103,7 @@
                     float: left;
                     padding: 15px;
                 }
-                div.content {margin-left: 0;}
+                //div.content {margin-left: 0;}
             }
 
             @media screen and (max-width: 400px) {
