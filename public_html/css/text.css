@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : Damien Fontes
 */
 
-#SectionPrincipale {
+.SectionPrincipale {
     margin-left: 24%;
     margin-right: 20%;
     font-size : 15px;
@@ -20,7 +20,7 @@ li {
     text-align: left;
 }
 
-#SectionPrincipale h1 {
+.SectionPrincipale h1 {
     text-decoration: underline;
 }
 
