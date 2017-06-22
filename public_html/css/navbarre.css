@@ -219,10 +219,6 @@ ul.sous-menu li a {
         border: 1px solid #555;
     }
 
-    #myCarousel {
-        display : none;
-    }
-
     img {
         display : none;
     }
@@ -230,15 +226,8 @@ ul.sous-menu li a {
     footer {
         background-color: #f1f1f1;
     }
-
 }
 
-#myCarousel {
-    height: 300px; 
-    width: 600px;
-    margin : auto;
-    margin-bottom: 3%;
-}
 footer {
     margin-top : 50px;
     bottom: 0px;
@@ -246,8 +235,9 @@ footer {
     width: 100%;
     background-color:#2d2d2d; /*Couleur de fond*/
     color: #bbb;
-
 }
+
+
 footer p{
 
     text-align: center;

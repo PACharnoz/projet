@@ -12,8 +12,8 @@ and open the template in the editor.
     margin-left: 24%;
     margin-right: 20%;
     font-size : 15px;
-    margin-top: -4%;
-    
+
+
 }
 
 li {
@@ -22,8 +22,26 @@ li {
 
 .SectionPrincipale h1 {
     text-decoration: underline;
+    margin-top : -3%;
 }
 
 #SectionNousContacter p {
     text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+
+    .SectionPrincipale {
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 6%;
+        font-size : 15px;
+        float :left;
+    }
+
+    .SectionPrincipale h1 {
+        text-decoration: underline;
+        margin-top : 3%;
+    }
+
 }
