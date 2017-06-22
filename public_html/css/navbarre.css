@@ -7,11 +7,11 @@ html, body {
 }
 
 header {
-    background: url('../image/background3.jpg') no-repeat scroll center 0;   //790 200
+    background: url('../image/Nouvelle3.jpg') no-repeat scroll center 0;   //790 200
     width: 100%;
     height: 200px;
     float : top;
-    margin-top: 1%;
+    margin-top: 1%; 
 }
 
 #NavPrincipale {
@@ -139,7 +139,7 @@ ul.sidenav li:hover ul {
 } 
 
 
-#test {
+ul.sous-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -149,7 +149,7 @@ ul.sidenav li:hover ul {
     z-index: 1;
 }
 
-#test li a {
+ul.sous-menu li a {
     padding: 18px 20px;
 }
 
@@ -181,7 +181,7 @@ ul.sidenav li:hover ul {
         border: 1px solid #555;
     }
 
-    #test {
+    ul.sous-menu {
         list-style-type: none;
         margin: 0;
         padding: 0;
