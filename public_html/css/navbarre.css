@@ -155,8 +155,10 @@ ul.sous-menu li a {
 
 
 footer {
+    
+    float : left;
     margin-top : 50px;
-    bottom: 0px;
+
 
     width: 100%;
     background-color:#2d2d2d; /*Couleur de fond*/
