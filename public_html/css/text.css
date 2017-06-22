@@ -12,7 +12,8 @@ and open the template in the editor.
     margin-left: 24%;
     margin-right: 20%;
     font-size : 15px;
-    margin-top: 1px;   
+    margin-top: 1px;
+    
 }
 
 li {
@@ -23,3 +24,6 @@ li {
     text-decoration: underline;
 }
 
+#SectionNousContacter p {
+    text-align: center;
+}
