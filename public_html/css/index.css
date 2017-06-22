@@ -165,8 +165,10 @@ ul.sous-menu li a {
 }*/
 
 @media screen and (max-width: 480px) {
+    
     header {
         margin-top : -10%;
+        background: none;
     }
     
     ul.sidenav {
@@ -275,12 +277,10 @@ ul.sous-menu li a {
         display : none;
     }
 
-    header {
-        background: none;
-    }
     img {
         display : none;
     }   
+    
     #NavSecondaire {
         display : none;
     }
